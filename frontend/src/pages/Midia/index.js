@@ -30,10 +30,10 @@ export default function Midia() {
             <img src={Img3} alt="imagem 3 da capa" />
           </div>
           <div>
-            <img src={Img4} alt="imagem 3 da capa" />
+            <img src={Img4} alt="imagem 4 da capa" />
           </div>
           <div>
-            <img src={Img5} alt="imagem 3 da capa" />
+            <img src={Img5} alt="imagem 5 da capa" />
           </div>
         </Carousel>
       </ImageCarousel>

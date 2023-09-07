@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FaFacebook, FaHands } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaHands } from 'react-icons/fa';
 import ReactTooltip from 'react-tooltip';
 import { Foot } from './styled';
 
@@ -23,10 +23,18 @@ export default function Footer() {
         <span>Siga-nos</span> <br />
         <a
           href="https://pt-br.facebook.com/auma.piracicaba"
-          id="FaFacebookF"
-          data-tip="facebook"
-        >
+          target="_blank"
+          id="FaFacebook"
+          data-tip="Facebook">
           <FaFacebook />
+          <ReactTooltip />
+        </a>
+        <a
+          href="https://www.instagram.com/aumapiracicaba"
+          target="_blank"
+          id="FaInstagram"
+          data-tip="Instagram">
+          <FaInstagram />
           <ReactTooltip />
         </a>
       </div>

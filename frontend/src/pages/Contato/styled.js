@@ -79,6 +79,14 @@ export const Form = styled.form`
       text-align: center;
       margin: 30px auto;
     }
+
+    div {
+      text-align: center;
+    }
+
+    div a {
+      margin: 0 15px;
+    }
   }
 
   @media screen and (min-width: 769px) and (max-width: 1040px) {
@@ -160,6 +168,14 @@ export const Form = styled.form`
     label {
       margin: 10px auto;
     }
+
+    div {
+      text-align: center;
+    }
+
+    div a {
+      margin: 0 15px;
+    }
   }
 
   @media screen and (min-width: 1041px) {
@@ -238,6 +254,14 @@ export const Form = styled.form`
     }
     label {
       margin: 10px auto;
+    }
+
+    div {
+      text-align: center;
+    }
+
+    div a {
+      margin: 0 15px;
     }
   }
 `;

@@ -41,6 +41,10 @@ export const Foot = styled.div`
       text-align: center;
       margin: 10px auto;
     }
+
+    .link a {
+      margin: 0 5px;
+    }
   }
 
   @media screen and (min-width: 681px) and (max-width: 784px) {
@@ -76,6 +80,10 @@ export const Foot = styled.div`
       text-align: center;
       align-content: center;
       line-height: 1.5;
+    }
+
+    .link a {
+      margin: 0 5px;
     }
   }
 
@@ -114,7 +122,12 @@ export const Foot = styled.div`
       align-content: center;
       line-height: 1.5;
     }
+
+    .link a {
+      margin: 0 5px;
+    }
   }
+
   @media screen and (min-width: 1025px) {
     background: #14213d;
     display: flex;
@@ -153,6 +166,10 @@ export const Foot = styled.div`
       text-align: center;
       align-content: center;
       line-height: 1.5;
+    }
+
+    .link a {
+      margin: 0 5px;
     }
   }
 `;

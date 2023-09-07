@@ -154,7 +154,7 @@ export const Nav = styled.nav`
       margin: auto;
     }
 
-    #FaFacebookF {
+    #FaFacebook {
       color: #3b5998;
       margin: auto;
       background: #fff;
@@ -163,6 +163,17 @@ export const Nav = styled.nav`
       position: absolute;
       top: 10px;
       left: 30px;
+    }
+
+    #FaInstagram {
+      color: #3b5998;
+      margin: auto;
+      background: #fff;
+      transition: 0.8s;
+      padding: 3px 0 0px 0;
+      position: absolute;
+      top: 10px;
+      left: 60px;
     }
 
     #FaSignInAlt {
@@ -205,7 +216,8 @@ export const Nav = styled.nav`
       transition: 0.8s;
     }
 
-    #FaFacebookF:hover,
+    #FaFacebook:hover,
+    #FaInstagram:hover,
     #FaSignInAlt:hover,
     #FaPowerOff,
     #FaUser,
@@ -267,7 +279,19 @@ export const Nav = styled.nav`
       display: none;
     }
 
-    #FaFacebookF {
+    #FaFacebook {
+      color: #3b5998;
+      position: absolute;
+      margin: auto 0px;
+      top: 13px;
+      right: 95px;
+      border-radius: 30%;
+      background: #fff;
+      transition: 0.8s;
+      padding: 3px 0 0px 0;
+    }
+
+    #FaInstagram {
       color: #3b5998;
       position: absolute;
       margin: auto 0px;
@@ -315,7 +339,8 @@ export const Nav = styled.nav`
       transition: 0.8s;
     }
 
-    #FaFacebookF:hover,
+    #FaFacebook:hover,
+    #FaInstagram:hover,
     #FaSignInAlt:hover,
     #FaPowerOff,
     #FaUser,
@@ -381,11 +406,22 @@ export const Nav = styled.nav`
       display: none;
     }
 
-    #FaFacebookF {
+    #FaFacebook {
       color: #3b5998;
       position: absolute;
       margin: auto 60px;
       left: 0;
+      border-radius: 30%;
+      background: #fff;
+      transition: 0.8s;
+      padding: 3px 0 0px 0;
+    }
+
+    #FaInstagram {
+      color: #3b5998;
+      position: absolute;
+      margin: auto 60px;
+      left: 30px;
       border-radius: 30%;
       background: #fff;
       transition: 0.8s;
@@ -419,7 +455,8 @@ export const Nav = styled.nav`
       transition: 0.8s;
     }
 
-    #FaFacebookF:hover,
+    #FaFacebook:hover,
+    #FaInstagram:hover,
     #FaSignInAlt:hover,
     #FaPowerOff,
     #FaUser,
@@ -484,11 +521,22 @@ export const Nav = styled.nav`
       display: none;
     }
 
-    #FaFacebookF {
+    #FaFacebook {
       color: #3b5998;
       position: absolute;
       margin: auto 60px;
       left: 0;
+      border-radius: 30%;
+      background: #fff;
+      transition: 0.8s;
+      padding: 3px 0 0px 0;
+    }
+
+    #FaInstagram {
+      color: #3b5998;
+      position: absolute;
+      margin: auto 60px;
+      left: 30px;
       border-radius: 30%;
       background: #fff;
       transition: 0.8s;
@@ -531,7 +579,8 @@ export const Nav = styled.nav`
       transition: 0.8s;
     }
 
-    #FaFacebookF:hover,
+    #FaFacebook:hover,
+    #FaInstagram:hover,
     #FaSignInAlt:hover,
     #FaPowerOff,
     #FaUser,
@@ -597,11 +646,22 @@ export const Nav = styled.nav`
       display: none;
     }
 
-    #FaFacebookF {
+    #FaFacebook {
       color: #3b5998;
       position: absolute;
       margin: auto 60px;
       left: 0;
+      border-radius: 30%;
+      background: #fff;
+      transition: 0.8s;
+      padding: 3px 0 0px 0;
+    }
+
+    #FaInstagram {
+      color: #3b5998;
+      position: absolute;
+      margin: auto 60px;
+      left: 30px;
       border-radius: 30%;
       background: #fff;
       transition: 0.8s;
@@ -644,7 +704,8 @@ export const Nav = styled.nav`
       transition: 0.8s;
     }
 
-    #FaFacebookF:hover,
+    #FaFacebook:hover,
+    #FaInstagram:hover,
     #FaSignInAlt:hover,
     #FaPowerOff,
     #FaUser,
@@ -709,11 +770,22 @@ export const Nav = styled.nav`
       display: none;
     }
 
-    #FaFacebookF {
+    #FaFacebook {
       color: #3b5998;
       position: absolute;
       margin: auto 60px;
       left: 0;
+      border-radius: 30%;
+      background: #fff;
+      transition: 0.8s;
+      padding: 3px 0 0px 0;
+    }
+
+    #FaInstagram {
+      color: #3b5998;
+      position: absolute;
+      margin: auto 60px;
+      left: 30px;
       border-radius: 30%;
       background: #fff;
       transition: 0.8s;
@@ -756,7 +828,8 @@ export const Nav = styled.nav`
       transition: 0.8s;
     }
 
-    #FaFacebookF:hover,
+    #FaFacebook:hover,
+    #FaInstagram:hover,
     #FaSignInAlt:hover,
     #FaPowerOff,
     #FaUser,
@@ -820,11 +893,22 @@ export const Nav = styled.nav`
       display: none;
     }
 
-    #FaFacebookF {
+    #FaFacebook {
       color: #3b5998;
       position: absolute;
       margin: auto 60px;
       left: 0;
+      border-radius: 30%;
+      background: #fff;
+      transition: 0.8s;
+      padding: 3px 0 0px 0;
+    }
+
+    #FaInstagram {
+      color: #3b5998;
+      position: absolute;
+      margin: auto 60px;
+      left: 30px;
       border-radius: 30%;
       background: #fff;
       transition: 0.8s;
@@ -867,7 +951,8 @@ export const Nav = styled.nav`
       transition: 0.8s;
     }
 
-    #FaFacebookF:hover,
+    #FaFacebook:hover,
+    #FaInstagram:hover,
     #FaSignInAlt:hover,
     #FaPowerOff,
     #FaUser,
@@ -938,11 +1023,22 @@ export const Nav = styled.nav`
       display: none;
     }
 
-    #FaFacebookF {
+    #FaFacebook {
       color: #3b5998;
       position: absolute;
       margin: auto 60px;
       left: 0;
+      border-radius: 30%;
+      background: #fff;
+      transition: 0.8s;
+      padding: 3px 0 0px 0;
+    }
+
+    #FaInstagram {
+      color: #3b5998;
+      position: absolute;
+      margin: auto 60px;
+      left: 30px;
       border-radius: 30%;
       background: #fff;
       transition: 0.8s;
@@ -985,7 +1081,8 @@ export const Nav = styled.nav`
       transition: 0.8s;
     }
 
-    #FaFacebookF:hover,
+    #FaFacebook:hover,
+    #FaInstagram:hover,
     #FaSignInAlt:hover,
     #FaPowerOff,
     #FaUser,
