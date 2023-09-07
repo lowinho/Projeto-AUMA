@@ -13,7 +13,7 @@ export default function Auma() {
       <br />
       <h1>Palavras do Presidente</h1>
       <ContasSection>
-        <p>
+        <p className="text-justify">
           Baseados nos princípios de Respeito e Transparência aos nossos
           parceiros, nós da AUMA ressaltamos a importância da divulgação de
           nossos Demonstrativos Financeiros, no intuito de mantê-los informados

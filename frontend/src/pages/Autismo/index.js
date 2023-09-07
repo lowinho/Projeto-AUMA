@@ -14,7 +14,7 @@ export default function Autismo() {
       <h1>Autismo, o que é?</h1>
 
       <AutismoSection>
-        <p>
+        <p className="text-justify">
           <br />
           De acordo com Gauderer (1997), o autismo é uma inadequacidade no
           desenvolvimento que se manifesta de maneira grave durante toda vida. É
@@ -31,7 +31,7 @@ export default function Autismo() {
 
       <AutismoSection2>
         <img src={Img2} alt="Capa 1" />
-        <p>
+        <p className="text-justify">
           A área de comunicação é bastante afetada, uma vez que, há problemas de
           interação social, os prejuízos desta área variam. Em alguns casos,
           ocorre a ausência da comunicação verbal e nos indivíduos com fala; a

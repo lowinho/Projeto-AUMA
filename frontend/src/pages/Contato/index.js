@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import ReactTooltip from 'react-tooltip';
 import { Form } from './styled';
 import history from '../../services/history';
@@ -48,9 +48,7 @@ export default function Contato() {
         history.push('/');
         toast.error("Falha no envio de Email, tente novamente mais tarde");
       }
-
   }
-
 
   return (
     <Form onSubmit={handleSubmit} id="contato">
@@ -103,13 +101,19 @@ export default function Contato() {
       </label>
       <button type="submit">Enviar</button>
 
+      <p>Ou nos contate pelo facebook</p> <br />
+      <div>
+        <a href="https://pt-br.facebook.com/auma.piracicaba" target="_blank" id="FaFacebook">
+          <FaFacebook id="icon" data-tip="Facebook" />
+          <ReactTooltip />
+        </a>
 
-      <p>Ou nos contate pelo facebook</p>
-
-      <a href="https://pt-br.facebook.com/auma.piracicaba" id="FaFacebookF">
-        <FaFacebook id="icon" data-tip="facebook" />
-        <ReactTooltip />
-      </a>
+        <a href="https://www.instagram.com/aumapiracicaba" target="_blank" id="FaInstagram">
+          <FaInstagram id="icon" data-tip="Instagram" />
+          <ReactTooltip />
+        </a>
+      </div>
+      
     </Form>
   );
 }

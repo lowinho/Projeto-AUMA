@@ -12,11 +12,13 @@ import {
   Visao,
   Valor,
   Video,
-  Objetivo,
+  NossaHistoria,
+  ComoAjudar,
   Local,
 } from './styled';
 
 import AumaImg from '../../assets/img/auma.jpg';
+import AumaPix from '../../assets/img/pix.png';
 
 export default function Home() {
   return (
@@ -34,9 +36,9 @@ export default function Home() {
           <p>
             Acompanhar e assistir pessoas com autismo e suas famílias,
             oferecendo suporte multidisciplinar, visando à redução dos níveis de
-            dependência e sua integração na sociedade e contribuir para que o
-            TEA (Transtorno do Espectro Autista) seja mais compreendida e
-            derrubando os preconceitos existentes.
+            dependência e sua integração na sociedade; além de contribuir
+            para que o TEA (Transtorno do Espectro Autista) seja mais
+            compreendido e derrubando os preconceitos existentes.
           </p>
         </Missao>
         <Visao>
@@ -52,9 +54,10 @@ export default function Home() {
           <FaHandHoldingHeart size={30} id="icon" /> <br />
           <span>Valor</span> <br />
           <p>
-            Promover o respeito e integração social aos autistas e seus
-            familiares, ética e desempenho no trabalho executado para alcançar a
-            eficácia e eficiência, sempre atuando com responsabilidade.
+            Lutamos contra a intolerância e o preconceito.<br />
+            Somos apartidários.<br />
+            Nos pautamos na ética, transparência e respeito.<br />
+            Acreditamos na responsabilidade social e na solidariedade.
           </p>
         </Valor>
       </Principios>
@@ -69,25 +72,28 @@ export default function Home() {
           title="video"
         />
       </Video>
-      <h1>Objetivo</h1>
-      <Objetivo>
-        <p>
-          Contribuir para que a sociedade compreenda melhor o que é o autismo,
-          acolhendo e derrubando os preconceitos existentes. <br />
+      <h1>Nossa História</h1>
+      <NossaHistoria>
+        <p className="text-justify">
+          Com a necessidade de um atendimento específico para seus filhos,
+          um grupo de pais e amigos de pessoas com TEA da cidade de Piracicaba
+          se uniu para criação de um serviço especializado no atendimento das
+          pessoas com autismo, pois tinham que levar seus filhos para serviços
+          em outras cidades. <br />
           <br />
           <br />
-          Atender crianças, adolescentes, jovens e adultos com diagnóstico
-          fechado, estabelencendo uma relação baseada em controle, segurança,
-          confiança e amor, facilitando-lhes a compreensão e assimilação de
-          conceitos básicos para que possam participar em sociedade com melhor
-          qualidade de vida. <br />
-          <br />
-          <br />
-          Conscientizar e trabalhar com a família para refletir, descobrir,
-          aceitar e assumir seu papel junto ao autista.
+          O grupo fundou a Associação de Pais e Amigos dos Autistas de Piracicaba
+          AUMA em 30 de junho de 1999. As instalações foram adaptadas para atender
+          crianças, adolescentes, jovens e adultos com autismo e seu
+          funcionamento se deu em junho de 2000.
         </p>
         <img src={AumaImg} alt="Capa 1" />
-      </Objetivo>
+      </NossaHistoria>
+
+      <ComoAjudar>
+        <h1>Como posso ajudar?</h1>
+        <img src={AumaPix} alt="PIX" />
+      </ComoAjudar>
 
       <Local>
         <h1>Localização</h1>

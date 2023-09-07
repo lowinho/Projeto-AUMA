@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {
   FaFacebookF,
+  FaInstagram,
   FaSignInAlt,
   FaBars,
   FaTimes,
@@ -63,8 +64,13 @@ export default function Header() {
         </Ul>
       </StyledBurger>
 
-      <a href="https://pt-br.facebook.com/auma.piracicaba" id="FaFacebookF">
-        <FaFacebookF size={24} data-tip="facebook" />
+      <a href="https://pt-br.facebook.com/auma.piracicaba" target="_blank" id="FaFacebook">
+        <FaFacebookF size={24} data-tip="Facebook" />
+        <ReactTooltip />
+      </a>
+
+      <a href="https://www.instagram.com/aumapiracicaba" target="_blank" id="FaInstagram">
+        <FaInstagram size={24} data-tip="Instagram" />
         <ReactTooltip />
       </a>
 
