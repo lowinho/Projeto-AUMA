@@ -435,57 +435,58 @@ export const Video = styled.section`
 
   @media screen and (min-width: 481px) and (max-width: 768px) {
     align-content: center;
-  display: flex;
-  background: #fff;
-  flex-direction: column;
-  padding-bottom: 100px;
-  iframe {
-    width: 90%;
-    height: 300px
-    margin: 0 auto;
-  }
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    padding-bottom: 100px;
+    iframe {
+      width: 90%;
+      height: 300px
+      margin: 0 auto;
+    }
   }
 
   @media screen and (min-width: 769px) and (max-width: 1024px) {
     align-content: center;
-  display: flex;
-  background: #fff;
-  flex-direction: column;
-  padding-bottom: 100px;
-  iframe {
-    width: 73%;
-    height: 455px
-    margin: 0 auto;
-  }
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    padding-bottom: 100px;
+    iframe {
+      width: 73%;
+      height: 455px
+      margin: 0 auto;
+    }
   }
 
   @media screen and (min-width: 1025px) and (max-width: 1440px) {
-  align-content: center;
-  display: flex;
-  background: #fff;
-  flex-direction: column;
-  padding-bottom: 100px;
-  iframe {
-    width: 65%;
-    height: 555px
-    margin: 0 auto;
-  }
+    align-content: center;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    padding-bottom: 100px;
+    iframe {
+      width: 65%;
+      height: 555px
+      margin: 0 auto;
+    }
   }
 
   @media screen and (min-width: 1441px) {
     align-content: center;
-  display: flex;
-  background: #fff;
-  flex-direction: column;
-  padding-bottom: 100px;
-  iframe {
-    width: 70%;
-    height: 665px
-    margin: 0 auto;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    padding-bottom: 100px;
+    iframe {
+      width: 70%;
+      height: 665px
+      margin: 0 auto;
+    }
   }
 `;
 
-export const Objetivo = styled.section`
+export const NossaHistoria = styled.section`
   @media screen and (max-width: 480px) {
   }
 
@@ -576,6 +577,64 @@ export const Objetivo = styled.section`
   }
 `;
 
+export const ComoAjudar = styled.section`
+  @media screen and (max-width: 480px) {
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    padding-bottom: 100px;
+    img {
+      width: 350px;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    padding-bottom: 100px;
+    img {
+      width: 350px;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (min-width: 1025px) and (max-width: 1440px) {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    padding-bottom: 100px;
+    img {
+      width: 500px;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (min-width: 1441px) {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    padding-bottom: 100px;
+    img {
+      width: 750px;
+      margin: 0 auto;
+    }
+  }
+`;
+
+
 export const Local = styled.section`
   @media screen and (max-width: 480px) {
   }
@@ -583,7 +642,7 @@ export const Local = styled.section`
   @media screen and (min-width: 481px) and (max-width: 768px) {
     align-content: center;
     display: flex;
-    background: #fff;
+    background: #ecf8f8;
     flex-direction: column;
     padding-bottom: 100px;
     justify-content: center;
@@ -610,7 +669,7 @@ export const Local = styled.section`
   @media screen and (min-width: 769px) and (max-width: 1024px) {
     align-content: center;
     display: flex;
-    background: #fff;
+    background: #ecf8f8;
     flex-direction: column;
     padding-bottom: 100px;
     justify-content: center;
@@ -636,7 +695,7 @@ export const Local = styled.section`
   @media screen and (min-width: 1025px) and (max-width: 1440px) {
     align-content: center;
     display: flex;
-    background: #fff;
+    background: #ecf8f8;
     flex-direction: column;
     padding-bottom: 100px;
     justify-content: center;
@@ -662,7 +721,7 @@ export const Local = styled.section`
   @media screen and (min-width: 1441px) {
     align-content: center;
     display: flex;
-    background: #fff;
+    background: #ecf8f8;
     flex-direction: column;
     padding-bottom: 100px;
     justify-content: center;
