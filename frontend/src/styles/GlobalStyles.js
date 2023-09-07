@@ -52,6 +52,10 @@ export default createGlobalStyle`
   body .Toastify .Toastify__toast-container .Toastify__toast--error {
     background: ${colors.errorColor}
   }
+
+  .text-justify {
+    text-align: justify;
+  }
 `;
 
 export const Container = styled.section`
